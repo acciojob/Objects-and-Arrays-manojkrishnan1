@@ -12,7 +12,7 @@ for(let i in players){
 	team1.push(players[i]);
 }
 
-let cap1 = person;
+let cap1 = {...person};
 
 
 window.players = players;
