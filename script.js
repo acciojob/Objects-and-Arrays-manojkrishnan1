@@ -12,13 +12,7 @@ for(let i in players){
 	team1.push(players[i]);
 }
 
-class A{
-	constructor(person){
-		this.name = person.name;
-		this.age = person.age;
-	}
-}
-let cap1 = constructor(person);
+let cap1 = person;
 
 
 window.players = players;
